@@ -28,27 +28,6 @@ export default function SelectRole(props: IProps) {
         props.setChangeRoleDialogShow(false);
     }
 
-    // return (
-    //     <div className="modal-content">
-    //         <div className="modal-header">
-    //             <h1 className="modal-title fs-5" id="staticBackdropLabel">Who are you?</h1>
-    //         </div>
-    //         <div className="modal-body" style={modalBodyStyle}>
-    //             <button type="button" 
-    //                 className={props.userRole == "ADMIN" ? "btn btn-primary" : "btn btn-secondary"}
-    //                 onClick={selectRoleHandler} 
-    //                 style={userChoise == "ADMIN" ? {backgroundColor: "green"} : {}} >ADMIN</button>
-    //             <button type="button" 
-    //                 className={props.userRole == "USER" ? "btn btn-primary" : "btn btn-secondary"}
-    //                 onClick={selectRoleHandler}
-    //                 style={userChoise == "USER" ? {backgroundColor: "green"} : {}} >USER</button>
-    //         </div>
-    //         <div className="modal-footer" style={modalBodyStyle}>
-    //             <button type="button" className="btn btn-primary" onClick={approveRoleHandler}>Approve</button>
-    //         </div>
-    //     </div>
-    // );
-
     return (
         <>
             <div>
